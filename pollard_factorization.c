@@ -35,8 +35,6 @@ long main()
 long gcd(long a,long b)
 {
 	long x;
-	a = (a<0 ? -a : a);
-	b = (b<0 ? -b : b);
 	while(b != 0)
 	{
 		x = a%b;
